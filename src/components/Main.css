@@ -1,0 +1,42 @@
+.custom-tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+.HoverButton{
+    border: none;
+    border-bottom: dashed 2px grey;
+    background-color: rgb(222, 201, 234);
+    border-radius: 4px;
+}
+.custom-tooltip {
+  position: absolute;
+  width: 257px;
+  background-color: #333;
+  margin: 3px;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  border-radius: 3px;
+  z-index: 1;
+}
+
+.custom-tooltip.top {
+  left: -70px;
+  bottom: 100%;
+}
+
+.custom-tooltip.bottom {
+  left: -70px;
+  top: 100%;
+}
+
+.custom-tooltip.left {
+  top: -6px;
+  right: 100%;
+}
+
+.custom-tooltip.right {
+  /* width: 300px; */
+  top: -6px;
+  left: 100%;
+}
